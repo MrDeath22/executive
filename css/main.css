@@ -269,7 +269,7 @@ a {
 
 .date-group {
    display: flex;
-   justify-content: space-evenly;
+   justify-content: space-between;
 }
 
 .date-group-item {
