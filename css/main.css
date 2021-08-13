@@ -1,0 +1,435 @@
+body {
+   font-family: Roboto , sans-serif;
+}
+
+* {
+   box-sizing: border-box;
+}
+
+.container {
+   width: 1320px;
+   margin: 0 auto;
+}
+
+h3 {
+   font-size: 35px;
+   color: #37474F;
+}
+
+li {
+   list-style: none;
+}
+
+span {
+   color: #717CFF;
+}
+
+a {
+   text-decoration: none;
+}
+
+.header-div {
+   display: flex;
+   justify-content: space-around;
+   margin-bottom: 100px;
+}
+
+.navigation-ul {
+   display: flex;
+   list-style: none;
+}
+
+.navigation-ul li a {
+   text-decoration: none;
+   padding: 20px 30px;
+   color: #373737;
+}
+
+.navigation-ul li {
+   padding: 10px 0;
+}
+
+.navigation-ul button {
+   width: 100px;
+   padding: 10px;
+   border: 1px solid #717CFF;
+   border-radius: 15px;
+   background-color: #fff;
+   transition: all 1s ease;
+}
+
+.navigation-ul button:hover {
+   background-color: #a9b0ff;
+}
+
+.main-text h2 {
+   font-size: 50px;
+   color: #2F2F2F;
+   font-weight: bolder;
+}
+
+.main-text p {
+   font-size: 22px;
+   font-weight: 500;
+   line-height: 38px;
+   color: #7D7D7D;
+}
+
+.main-text button {
+   display: flex;
+   justify-content: space-between;
+   width: 200px;
+   height: 50px;
+   font-size: 17px;
+   padding: 15px;
+   border: 1px solid #717CFF;
+   border-radius: 15px;
+   color: #fff;
+   background-color: #717CFF;
+   transition: all 1s ease;   
+}
+
+.main-text button:hover {
+   background-color: #a9b0ff;
+}
+
+.main-div {
+   display: flex;
+   justify-content: space-around;
+   margin-left: 40px;
+}
+
+.icons {
+   display: flex;
+}
+
+.face {
+   padding-top: 80px;
+   padding-right: 25px;
+}
+
+.tweet {
+   padding-right: 25px;
+   padding-top: 75px;
+}
+
+.insta {
+   padding-top: 75px;
+}
+
+.featured-section {
+   background-color: #FAFAFA;
+}
+
+.featured-div {
+   padding: 40px 0;
+}
+
+.featured-div h3 {
+   font-size: 20px;
+   text-align: center;
+   text-transform: uppercase;
+   color: #979797;
+}
+
+.sponsors {
+   text-align: center;
+   padding: 100px;
+}
+
+.sponsor1 {
+   padding-right: 25px;
+}
+
+.sponsor2 {
+   padding-right: 25px;
+}
+
+.sponsor3 {
+   padding-right: 25px;
+}
+
+.services-div {
+   padding: 60px 0 100px 0;
+}
+
+.services-title {
+   text-align: center;
+   padding-bottom: 60px;
+}
+
+.services-title h3 {
+   font-size: 35px;
+   color: #373737;
+}
+
+.services-title p {
+   font-size: 20px;
+   color: #7D7D7D;
+}
+
+.services-group {
+   display: flex;
+   flex-flow: wrap row;
+   justify-content: space-around;
+   margin-right: 10px;
+}
+
+.services-group h3 {
+   font-size: 25px;
+}
+
+.services-group p {
+   color: #37474F;
+   line-height: 28px;
+}
+
+.services-group a {
+   color: #717CFF;
+   text-decoration: none;
+}
+
+.services-group div {
+   border: 1px solid rgb(158, 190, 194);
+   border-radius: 20px;
+   padding: 30px;
+   margin: 30px auto;
+}
+
+.news-section {
+   background-color: #FAFAFA;
+   padding: 30px 0;
+}
+
+.news-title {
+   text-align: center;
+}
+
+.news-title h3 {
+   font-size: 35px;
+   margin: 50px 0;
+}
+
+.news-title p {
+   font-size: 20px;
+   color: #7D7D7D;
+   margin-bottom: 80px;
+}
+
+.news-group {
+   width: 1320px;
+   display: flex;
+   justify-content: space-around;
+}
+
+.news-group p {
+   font-size: 20px;
+   line-height: 25px;
+}
+
+.news-div button {
+   margin: 80px 0 80px 560px;
+   display: flex;
+   justify-content: space-between;
+   width: 200px;
+   height: 50px;
+   font-size: 17px;
+   padding: 15px;
+   border: 1px solid #717CFF;
+   border-radius: 15px;
+   color: #fff;
+   background-color: #717CFF;
+   transition: all 1s ease;   
+}
+
+.news-div button:hover {
+   background-color: #a9b0ff;
+}
+
+.date-div {
+   margin: 80px 0;
+}
+
+.date-title {
+   text-align: center;
+}
+
+.date-title h3 {
+   font-size: 35px;
+   margin: 50px 0;
+   color: #37474F;
+}
+
+.date-title p {
+   font-size: 20px;
+   color: #7D7D7D;
+   margin: 80px 0;
+}
+
+.date-group {
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.date-group-item {
+   border: 1px solid rgb(158, 190, 194);
+   border-radius: 20px;
+   padding: 30px;
+   box-shadow: 10px brown;
+}
+
+.date-group-item h3 {
+   font-size: 20px;
+}
+
+.date-group-item a {
+   color: #717CFF;
+}
+
+.date-group-title {
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.date-group-item time {
+   font-size: 15px;
+   padding-left: 150px;
+}
+
+.country-section {
+   background-color: #FAFAFA;
+   padding: 40px 0;
+}
+
+.country-title {
+   text-align: center;
+}
+
+.country-title p {
+   font-size: 20px;
+   color: #7D7D7D;
+   line-height: 25px;
+   padding-bottom: 40px;
+}
+
+.country-items {
+   display: flex;
+   justify-content: space-around;
+
+}
+
+.country-items p {
+   line-height: 25px;
+   color: rgba(55, 71, 79, 0.721569);
+   padding-bottom: 40px;
+}
+
+.testimonial-title {
+   text-align: center;
+}
+
+.testimonial-title p {
+   line-height: 25px;
+   color: rgba(55, 71, 79, 0.721569);
+   padding-bottom: 40px;
+}
+
+.testimonial-item {
+   display: flex;
+   justify-content: space-evenly;
+
+}
+
+.testimonial-item__bio {
+   padding: 50px;
+}
+
+.testimonial-item__bio p {
+   color: rgba(55, 71, 79, 0.721569);
+   font-size: 15px;
+   line-height: 30px;
+}
+
+.testimonial-item__bio_name {
+   display: flex;
+}
+
+.testimonial-item__bio_name h4 {
+   margin: 1px 30px;
+   color: #37474F;
+   font-size: 22px;
+}
+
+.testimonial-item__bio_name p {
+   margin: 10px 30px;
+   color: #37474F;
+   font-size: 15px;
+}
+
+.apply-section {
+   background-color: #FAFAFA;
+}
+
+.apply-div {
+   display: flex;
+   align-items: center;
+}
+
+.apply-div h3 {
+   font-size: 35px;
+}
+
+.apply-div button {
+   margin: 80px 0 80px 560px;
+   display: flex;
+   justify-content: space-between;
+   width: 200px;
+   height: 50px;
+   font-size: 17px;
+   padding: 15px;
+   border: 1px solid #717CFF;
+   border-radius: 15px;
+   color: #fff;
+   background-color: #717CFF;
+   transition: all 1s ease; 
+}
+
+.footer-section {
+   background-color: #717CFF;
+   padding: 70px 0;
+}
+
+.footer-div {
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.footer-div a {
+   color: #EEEEEE;
+   line-height: 50px;
+}
+
+.footer-about p {
+   color: #EEEEEE;
+   line-height: 30px;
+}
+
+.footer-end__p {
+   padding: 50px 0 0 0;
+}
+
+.footer-socical {
+   margin-top: 180px;
+}
+
+.insta2 {
+   padding-right: 20px;
+}
+
+.tweet2 {
+   padding: 0 20px;
+}
+
+.face2 {
+   padding: 0 20px;
+}
